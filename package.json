@@ -1,0 +1,23 @@
+{
+  "name": "morningmed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server/src/index.js",
+    "dev": "tsc && node dist/server/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "^1.6.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@types/node": "^25.6.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "typescript": "^6.0.3",
+    "zod": "^4.3.6"
+  }
+}
