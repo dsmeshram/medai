@@ -3,16 +3,17 @@
   "buildCommand": "npm run build",
   "builds": [
     {
-      "src": "package.json",
+      "src": "dist/server/src/index.js",
       "use": "@vercel/node@3.x",
       "config": {
-        "nodeVersion": "22.x"
+        "nodeVersion": "22.x",
+        "maxDuration": 900
       }
     }
   ],
   "routes": [
     {
-      "src": "/.*",
+      "src": "/(.*)",
       "dest": "dist/server/src/index.js"
     }
   ],
