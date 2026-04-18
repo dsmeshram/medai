@@ -4,7 +4,10 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node@3.x"
+      "use": "@vercel/node@3.x",
+      "config": {
+        "nodeVersion": "22.x"
+      }
     }
   ],
   "routes": [
