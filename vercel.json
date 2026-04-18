@@ -15,7 +15,5 @@
   ],
   "env": {
     "NODE_ENV": "production"
-  },
-  "envPrefix": "",
-  "outputDirectory": "dist"
+  }
 }
